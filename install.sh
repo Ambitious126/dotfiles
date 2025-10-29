@@ -43,11 +43,11 @@ echo "Installing dotfiles..."
 mkdir -p "$HOME/.config"
 
 # Copy config files
-cp -r ./.config/i3 "$HOME/$USER/.config/" 2>/dev/null && echo "✓ i3 config installed"
-cp -r ./.config/polybar "$HOME/$USER/.config/" 2>/dev/null && echo "✓ polybar config installed"
-cp -r ./.config/rofi "$HOME/$USER/.config/" 2>/dev/null && echo "✓ rofi config installed"
-cp -r ./.config/alacritty "$HOME/$USER/.config/" 2>/dev/null && echo "✓ alacritty config installed"
-cp -r ./.config/picom "$HOME/$USER/.config/" 2>/dev/null && echo "✓ picom config installed"
+cp -r ./.config/i3 "$HOME/.config/" 2>/dev/null && echo "✓ i3 config installed"
+cp -r ./.config/polybar "$HOME/.config/" 2>/dev/null && echo "✓ polybar config installed"
+cp -r ./.config/rofi "$HOME/.config/" 2>/dev/null && echo "✓ rofi config installed"
+cp -r ./.config/alacritty "$HOME/.config/" 2>/dev/null && echo "✓ alacritty config installed"
+cp -r ./.config/picom "$HOME/.config/" 2>/dev/null && echo "✓ picom config installed"
 
 echo ""
 echo "Done, Reload i3 with Mod+Shift+R"
