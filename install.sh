@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-packages = (
+packages=(
     git 
     neovim
     flatpak
