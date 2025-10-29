@@ -1,0 +1,53 @@
+# Window settings
+[window]
+opacity = 0.85  # Transparency setting (0.0 = fully transparent, 1.0 = opaque)
+
+# Font settings
+[font]
+size = 12.0  # Font size should be at the top level of [font], not nested
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+# Colorscheme
+[colors.primary]
+background = "#282a36"
+foreground = "#f8f8f2"
+
+# Colors for the terminal
+[colors.normal]
+black   = "#000000"
+red     = "#ff5555"
+green   = "#50fa7b"
+yellow  = "#f1fa8c"
+blue    = "#8be9fd"
+magenta = "#ff79c6"
+cyan    = "#8be9fd"
+white   = "#f8f8f2"
+
+[colors.bright]
+black   = "#6272a4"
+red     = "#ff6e6e"
+green   = "#69ff94"
+yellow  = "#ffffa5"
+blue    = "#a4ffff"
+magenta = "#ff92df"
+cyan    = "#a4ffff"
+white   = "#ffffff"
+
+# Cursor settings
+[cursor.style]
+shape = "Beam"  # Options: "Block", "Underline", "Beam"
+
+# Scrolling settings
+[scrolling]
+history = 10000  # Changed from history_size to history
